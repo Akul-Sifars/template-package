@@ -1,0 +1,10 @@
+{
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"javascript.preferences.importModuleSpecifier": "non-relative",
+	"search.exclude": {
+		"**/.agents": true
+	}
+}

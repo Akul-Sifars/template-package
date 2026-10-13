@@ -1,0 +1,43 @@
+export const THEME_MODES = {
+	light: "light",
+	dark: "dark",
+	system: "system",
+} as const
+
+export const colorTokens = {
+	background: "var(--background)",
+	foreground: "var(--foreground)",
+	card: "var(--card)",
+	cardForeground: "var(--card-foreground)",
+	popover: "var(--popover)",
+	popoverForeground: "var(--popover-foreground)",
+	primary: "var(--primary)",
+	primaryForeground: "var(--primary-foreground)",
+	secondary: "var(--secondary)",
+	secondaryForeground: "var(--secondary-foreground)",
+	muted: "var(--muted)",
+	mutedForeground: "var(--muted-foreground)",
+	accent: "var(--accent)",
+	accentForeground: "var(--accent-foreground)",
+	destructive: "var(--destructive)",
+	border: "var(--border)",
+	input: "var(--input)",
+	ring: "var(--ring)",
+	chart: {
+		c1: "var(--chart-1)",
+		c2: "var(--chart-2)",
+		c3: "var(--chart-3)",
+		c4: "var(--chart-4)",
+		c5: "var(--chart-5)",
+	},
+	sidebar: {
+		background: "var(--sidebar)",
+		foreground: "var(--sidebar-foreground)",
+		primary: "var(--sidebar-primary)",
+		primaryForeground: "var(--sidebar-primary-foreground)",
+		accent: "var(--sidebar-accent)",
+		accentForeground: "var(--sidebar-accent-foreground)",
+		border: "var(--sidebar-border)",
+		ring: "var(--sidebar-ring)",
+	},
+} as const
